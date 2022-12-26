@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  position: relative;
+  justify-content: left;
+  background-image: linear-gradient(270deg, orange, rgb(242, 233, 195));
+  height: 762px;
+  font-family: "Kalam", cursive;
+}
+
+header .Name {
+  position: relative;
+  width: 300px;
+  height: 80px;
+  margin: 60px;
+  color: rgb(220, 96, 14);
+  font-weight: bolder;
+  margin-top: 25px;
+}
+u {
+  color: rgb(140, 94, 14);
+}
+.Name h3 {
+  color: rgb(169, 99, 8);
+  font-size: x-large;
+}
+.Name p {
+  position: relative;
+  font-weight: bold;
+}
+
+.Name #para1 {
+  width: 500px;
+  height: 100px;
+  padding-bottom: 30px;
+}
+.Name #para2 {
+  width: 500px;
+  height: 110px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.Name #para3 {
+  width: 500px;
+  height: 110px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.Name #para4 {
+  width: 500px;
+  height: 136px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.Name #para5 {
+  width: 500px;
+  height: 135px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.Name p:hover {
+  color: black;
+  transition: all 2s ease;
+}
+
+.line {
+  position: relative;
+  border-right: 4px solid rgb(156, 115, 18);
+  height: 620px;
+  left: 160px;
+  top: 58px;
+}
+
+hr {
+  border: 1px solid rgb(242, 109, 8);
+  width: 500px;
+}
+
+header .image {
+  width: 500px;
+  height: 700px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+header .image img {
+  border: 3px solid white;
+  box-shadow: 4px 5px 2px black;
+  transition: 2s ease;
+}
+header .image img:hover {
+  transition: 2s ease;
+  box-shadow: -2px -2px 2px black;
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+header .image figcaption {
+  text-align: center;
+}
+
+figcaption {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.mp3 {
+  position: absolute;
+  bottom: 50px;
+  right: 15px;
+}
+
+.mp3 audio {
+  width: 300px;
+  height: 35px;
+}
+audio:hover {
+  border: 2px solid black;
+  border-radius: 18px;
+  transition: all 0.5s;
+}
+
+#button {
+  position: relative;
+  width: 35px;
+  height: 27px;
+  left: 430px;
+  top: 630px;
+  border-radius: 10px;
+  background: none;
+  border-color: transparent;
+}
+
+#button:hover{
+  border-color: black;
+  background: white;
+}
